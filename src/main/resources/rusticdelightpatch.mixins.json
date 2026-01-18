@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.phoen1x.rusticdelightpatch.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ModItemGroupsMixin",
+        "ModPotionsMixin",
+        "RusticDelightBlocksMixin",
+        "RusticDelightItemsMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
