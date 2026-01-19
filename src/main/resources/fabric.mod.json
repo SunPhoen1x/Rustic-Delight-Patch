@@ -3,12 +3,14 @@
 	"id": "rusticdelightpatch",
 	"version": "${version}",
 	"name": "rusticdelightpatch",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Polymer Patch mod for Rustic Delight",
 	"authors": [
 		"Sun_Phoen1x"
 	],
     "contact": {
-      "homepage": "https://discord.gg/czfFedprM4"
+      "discord": "https://discord.gg/czfFedprM4",
+      "source": "https://github.com/SunPhoen1x/Rustic-Delight-Patch",
+      "modrinth": "https://modrinth.com/mod/rustic-delight-polymer"
     },
 	"license": "MIT",
 	"icon": "assets/rusticdelightpatch/icon.png",
@@ -23,6 +25,7 @@
 	],
 	"depends": {
         "fabricloader": ">=0.18.4",
+        "rusticdelight": "*",
 		"minecraft": "~1.21.8",
 		"java": ">=21",
 		"fabric-api": "*"
