@@ -45,11 +45,11 @@ public class RusticDelightBlocksMixin {
         else if (block instanceof ModWildCropBlock || block instanceof FlowerPotBlock) {
             overlay = BaseFactoryBlock.SAPLING;
         }
-        else if (block instanceof PancakeBlock || block instanceof RiceRollRoyaleBlock) {
+        else if (block instanceof PancakeBlock || block instanceof RiceRollRoyaleBlock || block instanceof BellPepperMedleyBlock) {
             overlay = BaseFactoryBlock.TRIPWIRE;
         }
         else if (block instanceof PieBlock) {
-            overlay = BaseFactoryBlock.BOTTOM_TRAPDOOR;
+            overlay = BaseFactoryBlock.CAMPFIRE;
         }
         else if (path.endsWith("_crate") || path.endsWith("_bag")) {
             overlay = StatePolymerBlock.of(block, BlockModelType.FULL_BLOCK);

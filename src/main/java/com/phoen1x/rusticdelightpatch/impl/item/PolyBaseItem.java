@@ -1,6 +1,7 @@
 package com.phoen1x.rusticdelightpatch.impl.item;
 
 import eu.pb4.polymer.core.api.item.PolymerItem;
+import net.fabricmc.fabric.api.networking.v1.context.PacketContext;
 import net.minecraft.block.BlockState;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -11,7 +12,6 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
-import xyz.nucleoid.packettweaker.PacketContext;
 
 public record PolyBaseItem(Item item) implements PolymerItem {
     @Override

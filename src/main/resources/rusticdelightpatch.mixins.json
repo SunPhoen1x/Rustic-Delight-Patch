@@ -3,7 +3,7 @@
 	"package": "com.phoen1x.rusticdelightpatch.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ModItemGroupsMixin",
+      "RusticDelightItemGroupsMixin",
         "ModPotionsMixin",
         "RusticDelightBlocksMixin",
         "RusticDelightItemsMixin"

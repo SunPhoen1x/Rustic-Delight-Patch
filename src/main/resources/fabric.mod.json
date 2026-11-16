@@ -8,7 +8,9 @@
 		"Sun_Phoen1x"
 	],
     "contact": {
-      "homepage": "https://discord.gg/czfFedprM4"
+      "discord": "https://discord.gg/czfFedprM4",
+      "source": "https://github.com/SunPhoen1x/Rustic-Delight-Patch",
+      "modrinth": "https://modrinth.com/mod/rustic-delight-polymer"
     },
 	"license": "MIT",
 	"icon": "assets/rusticdelightpatch/icon.png",
@@ -21,11 +23,10 @@
 	"mixins": [
 		"rusticdelightpatch.mixins.json"
 	],
-	"depends": {
-        "fabricloader": ">=0.18.4",
-        "rusticdelight": "*",
-		"minecraft": "~1.21.11",
-		"java": ">=21",
-		"fabric-api": "*"
-	}
+    "depends": {
+      "fabricloader": ">=0.20.1",
+      "minecraft": "~26.2",
+      "java": ">=25",
+      "fabric-api": "*"
+    }
 }
